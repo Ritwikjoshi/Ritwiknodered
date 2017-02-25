@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Ritwiknodered
+  host: Ritwiknodered
+  disk_quota: 1024M
+  services:
+  - Ritwiknodered-cloudantNoSQLDB
+  - RitwikNoderedLanguage Translator-g8
+  - RitwikNoderedConversation-7q
+  - RitwikNoderedTone Analyzer-rl
+  - RitwikNoderedSpeech to Text-94
+  - RitwikNoderedText to Speech-6y
